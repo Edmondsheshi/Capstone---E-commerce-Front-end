@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+
+
+/* Login Page */
+.container-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.login-content{
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-control{
+    margin: 50px 50px 50px 50px;
+}
+.input{
+    margin-bottom: 30px;
+}
+.login-button{
+    width: 100%;
+}
+.buttons-login{
+    display: flex;
+    flex-direction: column;
+}
+/* Register */
+.container-register{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.input-text{
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    padding: 70px 70px 70px 70px;
+}
+.buttons-login{
+    margin-top: 50px;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron{
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,107,1) 7%, rgba(114,9,121,1) 43%, rgba(255,0,35,1) 100%);
+    margin: 30px 30px 0 30px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jumbotron-body{
+    padding: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    /* Card Homepage*/
+    .card-product{
+        display: flex;
+        justify-content: space-evenly;
+    }
+.card{
+    border: 25px;
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    place-items: center;
+    border-radius: 20px;
+}
+.card:hover{
+    box-shadow: 0 5px 0 0 rgb(38, 0, 255)  !important;
+    transform: scale(1.4, 1.4) blur;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.shop-now{
+    display: flex;
+    justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+/* Footer */
+.social-footer{
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,107,1) 7%, rgba(114,9,121,1) 43%, rgba(255,0,35,1) 100%);
+    margin: 30px 30px 0 30px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
